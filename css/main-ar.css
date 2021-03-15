@@ -1,0 +1,161 @@
+body{
+    direction: rtl;
+}
+header .top-nav .far, 
+header .top-nav .fas,
+.blog-content .brief-details>div .fas, 
+.blog-content .brief-details>div .far,
+.jobs .jobs-cards .job .btn .far {
+    margin-right: 0;
+    margin-left: 5px;
+}
+header .top-nav .left .phone {
+    margin-right: 0;
+    margin-left: 30px;
+}
+header .main-nav .navbar .navbar-nav{
+    margin-right: auto;
+    margin-left: 0;
+}
+header .top-nav .right >div,
+footer .social a ,
+.jobs .social a{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.services .card span.first,
+footer span.first,
+footer .info .fas, 
+footer .info .far,
+.jobs .info .fas,
+.jobs .info .far,
+.jobs span.first,
+.blog-content .content .author .left img,
+.blog-content .content .author .left h6,
+.blog-content .content .author .left span{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.head-shape::before {
+    right: -5px;
+    left: 0;
+}
+.jobs .contact-info,
+.review .review-content,
+.expertise{
+    text-align: right;
+}
+footer .head-shape{
+    left: 97%;
+    right: auto;
+}
+.head-shape{
+    right: -20px;
+    left: auto;
+}
+.head-shape::before{
+    right: 5px;
+    left: auto;
+}
+.login-form label,
+.custom-control-inline
+{
+    margin-left: 1rem;
+    margin-right: 0;
+}
+.custom-control-label::before,
+.custom-control-label::after{
+    right: -1.5rem;
+    left: auto;
+}
+.custom-control{
+    padding-left: auto;
+    padding-right: 1.5rem;
+}
+/***/
+.blog-content .brief-details>div ,
+.user-page .user-img img{
+    margin-left: 25px;
+    margin-right: 0;
+}
+.blog-content .brief-details>div:last-child {
+    margin-left: 0;
+}
+.blog-content .comments .comment img {
+    margin-left: 25px;
+    margin-right: 0;
+}
+aside .recent img {
+    margin-left: 15px;
+    margin-right: 0;
+}
+/***/
+.courses h3 .btn{
+    float: left;
+}
+/******/
+.page-header.course-d .reviews>div:first-child{
+    margin-right: 0;
+    margin-left: 30px;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    padding-right: 0;
+    padding-left: .5rem;
+}
+.breadcrumb-item+.breadcrumb-item{
+    padding-right: .5rem;
+    padding-left: 0;
+}
+.course-details .course-card .card .include ul li .far,
+.course-details .course-description ul .far,
+.jobs nav p{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.course-details .course-card .card .price span{
+    margin-right: 0;
+    margin-left: 15px;
+}
+.search .input-group-text .fas {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.jobs .jobs-sidebar .categories .content-bar .head-bar h6 .fas {
+    right: auto;
+    left: 0;
+}
+.jobs .jobs-sidebar .categories .content-bar .bar-content ul {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.jobs nav .page-link{
+    margin-right: 5px;
+    margin-left: 0;
+}
+.jobs nav .page-link .fas{
+    transform: rotate(180deg);
+}
+.company .company-sidebar li a{
+    border-right: 5px solid #F7F7F7;
+    border-left: 0;
+}
+.company .company-img .file span .fas {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.company .form-check{
+    padding-right: 1.25rem;
+    padding-left: 0;
+}
+.form-check-input {
+    margin-right: -1.25rem;
+    margin-left: 0;
+}
+.company .salary div:first-of-type{
+    margin-left: 10px;
+    margin-right: 0;
+}
+.user-page .user-details .contact-text{
+    border-right: 1px solid #ddd;
+    border-left: none;
+}

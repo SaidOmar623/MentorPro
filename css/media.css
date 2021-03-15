@@ -1,0 +1,95 @@
+@media (max-width: 1199.9px){
+    header .top-nav .right{
+        margin-top: 5px;
+    } 
+}
+@media (max-width: 991.9px){
+    header .top-nav .left,
+    header .top-nav .right{
+        justify-content: center;
+    }
+    header .top-nav .right{
+        margin-top: 5px;
+    }
+    .partners p{
+        width: 80%;
+    }
+    footer .quick-links>div{
+        margin-right: 5px;
+    }
+    form{
+        width: 100%;
+    }
+    .course-details .course-card.main{
+        display: none;
+    }
+    .course-details .course-card.tablet{
+        display: block;
+    }
+    .course-details .container >.row{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 767.9px){
+    .who .who-content a{
+        margin-bottom: 15px;
+    }
+    .about img{
+        float: none;
+    }
+    .blogs .container> p{
+        width: 80%;
+    }
+    .review .review-content{
+        padding-bottom: 30px;
+        border-bottom: 2px solid #eee;
+    }
+    .services.sub-service .card{
+        width: 100%;
+        /* overflow-y: auto; */
+    }
+    .contact-page h2 {
+        margin-top: 50px;
+    }
+}  
+@media (max-width: 575.9px){
+    header .top-nav .left{
+        flex-direction: column;
+    }
+    .blog-content .comments .comment{
+        overflow: auto;
+    }
+    .brief-details>div,
+    .user-details span{
+        white-space: nowrap;
+    }
+    .share-content{
+        width: 100%;
+        overflow: auto;
+    }
+    .course-details .course-card.tablet .card .brief-content{
+        padding: 20px ;
+    }
+    .job-prief .job-info .apply .btn.apply-job, 
+    .job-page .about-job .apply .btn.apply-job{
+        padding: 5px 10px;
+    }
+    .company-prief .company-info{
+        flex-direction: column;
+    }
+    .company-prief .company-info .apply{
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .company-prief .company-info .apply .btn{
+        margin-right: 5px;
+        padding: 5px 10px;
+    }
+    .user-page .user-details.info{
+        flex-direction: column;
+    }
+    .user-page .user-details .contact-text{
+        padding: 0;
+        border: none;
+    }
+}
